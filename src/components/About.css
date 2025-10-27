@@ -1,0 +1,50 @@
+/* Container for the entire card */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  flex-wrap: "wrap";
+  justify-content: "center";
+}
+
+/* Add hover effect */
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px);
+}
+
+/* Image style */
+.avatar {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+  display: "flex";
+}
+
+/* Container inside the card */
+.container {
+  padding: 15px;
+  flex-wrap: "wrap";
+  justify-content: "center";
+}
+
+/* Name and text styles */
+.container h4 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.container p {
+  color: #777;
+  font-size: 1rem;
+  margin: 0;
+}
